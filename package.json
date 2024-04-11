@@ -1,0 +1,22 @@
+{
+  "name": "autoupload",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "archiver": "^6.0.1",
+    "basic-ftp": "^5.0.4",
+    "dotenv": "^16.3.1",
+    "fs": "^0.0.1-security",
+    "googleapis": "^130.0.0",
+    "node-cron": "^3.0.3",
+    "nodemailer": "^6.9.8",
+    "path": "^0.12.7",
+    "ssh2-sftp-client": "^9.1.0"
+  }
+}
